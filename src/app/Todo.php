@@ -3,12 +3,15 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Todo extends Model
 {
-     protected $table = 'todos';
+    use SoftDeletes;
 
-     protected $fillable = [
+    protected $table = 'todos';
+
+    protected $fillable = [
         'content',
      ]; 
 }
