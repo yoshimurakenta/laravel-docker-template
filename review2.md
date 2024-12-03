@@ -151,4 +151,4 @@ composer.lock
 インストールしたすべてのパッケージは
 vendorディレクトリに格納される。
 
-vendor/composer/ ディレクトリ: Composer自身の設定ファイルや、依存関係の解決に関するファイルが格納される。ぎtre
+vendor/composer/ ディレクトリ: Composer自身の設定ファイルや、依存関係の解決に関するファイルが格納される。
