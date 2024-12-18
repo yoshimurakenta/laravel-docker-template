@@ -29,10 +29,10 @@ class TodoRequest extends FormRequest
     }
 
     public function messages()
-{
-    return [
-        'content.required' => 'ToDoが入力されていません。',
-        'content.max' => 'ToDoは :max 文字以内で入力してください。',
-    ];
-}
+    {
+        return [
+            'content.required' => 'ToDoが入力されていません。',
+            'content.max' => 'ToDoは :max 文字以内で入力してください。',
+        ];
+    }
 }
